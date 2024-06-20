@@ -1,0 +1,29 @@
+body {
+    background-color: gray;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    border: 5px solid orangered;
+}
+
+.container:hover .cuadrado {
+    transform: scale(x, y);
+    /* 0 al 100% valor igual y 100% */
+    transform: scale(2);
+    transform: scale(.5);
+    transform: scale(2, .5);
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+    background: white;
+    margin: 20px;
+    transition: .3s;
+}
